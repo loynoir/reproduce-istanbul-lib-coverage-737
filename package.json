@@ -1,0 +1,31 @@
+{
+  "name": "reproduce-istanbul-lib-coverage-737",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "c8": {
+    "reporter": [
+      "lcov",
+      "json",
+      "text"
+    ]
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "json",
+      "text"
+    ]
+  },
+  "scripts": {
+    "test": "bash ./test.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "c8": "^8.0.1",
+    "istanbul-merge": "^2.0.0",
+    "nyc": "^15.1.0"
+  }
+}
